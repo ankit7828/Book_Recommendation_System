@@ -31,6 +31,7 @@ User ID
 Book ISBN
 Book Rating
 
+Dataset link: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset
 These datasets are preprocessed and merged to build a reliable recommendation pipeline.
 
 # System Architecture
