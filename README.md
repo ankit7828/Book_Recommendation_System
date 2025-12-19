@@ -1,5 +1,4 @@
-<img width="1891" height="901" alt="image" src="https://github.com/user-attachments/assets/908fabdb-f0a1-4a9d-b0b3-042318167ef9" /># Book_Recommendation_System
-
+#Book Recommendation System
 # Project Overview
 
 The Book Recommendation System is a web-based machine learning application that recommends relevant books to users based on a given book title. The system combines Popularity-Based Filtering and Collaborative Filtering techniques to generate accurate and meaningful recommendations. Users simply enter the name of a book, and the system suggests four similar books, helping them discover new titles based on user preferences and overall popularity trends.
@@ -15,7 +14,7 @@ To deploy the model as an interactive web application
 
 # Installation and Setup
 ## 1. Clone the repository
-git clone https://github.com/Riya29Mehta/book-recommender.git
+git clone https://github.com/ankit7828/Book_Recommendation_System
 cd book-recommender
 ## 2. Install the dependencies
 pip install -r requirements.txt
