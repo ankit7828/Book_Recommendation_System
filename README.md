@@ -16,19 +16,19 @@ To deploy the model as an interactive web application
 # Datasets Used
 The project uses three datasets:
 ## 1. Books Dataset
-Book title
-Author
-Image URLs
+Book title ,
+Author ,
+Image URLs ,
 ISBN
 
 ## 2. Users Dataset
-User ID
-Location
+User ID ,
+Location ,
 Age
 
 ## 3. Ratings Dataset
-User ID
-Book ISBN
+User ID ,
+Book ISBN ,
 Book Rating
 
 Dataset link: https://www.kaggle.com/datasets/saurabhbagchi/books-dataset  
@@ -47,23 +47,23 @@ Number of ratings
 Average rating score  
 
 ## 2. Collaborative Filtering
-Uses user-book interaction data  
-Builds a pivot table of users vs books  
-Computes similarity between books using cosine similarity  
-Recommends books similar to the input title  
+Uses user-book interaction data  ,
+Builds a pivot table of users vs books  ,
+Computes similarity between books using cosine similarity  ,
+Recommends books similar to the input title  ,
 Both techniques together improve accuracy and diversity of recommendations.
 
 # Technology Stack
 ## 1. Backend
-Python  
-Flask  
-NumPy  
-Pandas  
+Python  ,
+Flask  ,
+NumPy  ,
+Pandas  ,
 Pickle
 
 ## 2. Frontend
-HTML  
-CSS  
+HTML  ,
+CSS  ,
 JavaScript
 
 # Model & Data Handling
@@ -71,27 +71,27 @@ Pickle for saving trained models
 Preprocessed similarity matrices  
 
 # Key Features
-User-friendly web interface  
-Fast recommendation generation  
+User-friendly web interface  ,
+Fast recommendation generation  ,
 Accurate similarity-based suggestions  
 
 # Implementation Details
-Data cleaning and preprocessing performed using Pandas  
-Similarity matrix generated using cosine similarity  
-Model artifacts stored as .pkl files  
-Flask routes handle user requests and responses  
+Data cleaning and preprocessing performed using Pandas  ,
+Similarity matrix generated using cosine similarity  ,
+Model artifacts stored as .pkl files  ,
+Flask routes handle user requests and responses  ,
 HTML templates used for frontend rendering
 
 # Results
-The system successfully recommends four relevant books for a given input  
-Combines both personalized and generic recommendations  
+The system successfully recommends four relevant books for a given input  ,
+Combines both personalized and generic recommendations  ,
 Ensures meaningful output even with sparse data  
 
 # Future Enhancements
-Add user login and personalized profiles  
-Include content-based filtering  
-Deploy the application on cloud platforms  
-Improve UI with advanced frontend frameworks  
+Add user login and personalized profiles  ,
+Include content-based filtering  ,
+Deploy the application on cloud platforms  ,
+Improve UI with advanced frontend frameworks  ,
 Add recommendation explanation features
 
 # Conclusion
