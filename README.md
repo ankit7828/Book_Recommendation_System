@@ -13,20 +13,19 @@ To combine popularity-based and collaborative filtering approaches
 To deploy the model as an interactive web application
 
 # Datasets Used
-
 The project uses three datasets:
-Books Dataset
+## 1. Books Dataset
 Book title
 Author
 Image URLs
 ISBN
 
-# Users Dataset
+## 2. Users Dataset
 User ID
 Location
 Age
 
-# Ratings Dataset
+## 3. Ratings Dataset
 User ID
 Book ISBN
 Book Rating
@@ -40,13 +39,13 @@ Recommendation model processes the request
 System returns four recommended books with relevant details
 
 # Recommendation Techniques Used
-1. Popularity-Based Recommendation
+## 1. Popularity-Based Recommendation
 Recommends books based on:
 Number of ratings
 Average rating score
 Useful for new users with no prior history (cold start problem)
 
-2. Collaborative Filtering
+## 2. Collaborative Filtering
 Uses user-book interaction data
 Builds a pivot table of users vs books
 Computes similarity between books using cosine similarity
@@ -54,14 +53,14 @@ Recommends books similar to the input title
 Both techniques together improve accuracy and diversity of recommendations.
 
 # Technology Stack
-# Backend
+## 1. Backend
 Python
 Flask
 NumPy
 Pandas
 Pickle
 
-# Frontend
+## 2. Frontend
 HTML
 CSS
 JavaScript
