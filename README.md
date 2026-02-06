@@ -5,6 +5,7 @@ The Book Recommendation System is a web-based machine learning application that 
 
 Live Demo: https://web-production-7ff6.up.railway.app/    
 Live Demo: https://book-recommendation-system-1-02if.onrender.com/
+To start: python app.py
 
 # Objectives
 
